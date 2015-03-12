@@ -633,7 +633,7 @@ HTMLSTR;
 
 if ( !is_logged() ) {
 	die(str_replace(
-		array('【عنوان】', 'ثبت'),
+		array('عنوان', 'ثبت'),
 		array('خوش آمدید . لطفا کلمه عبور خود را وارد کنید', 'ثبت'),
 		$first
 	));	
